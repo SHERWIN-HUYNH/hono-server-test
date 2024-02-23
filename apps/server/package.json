@@ -5,7 +5,8 @@
     "check": "tsc --noEmit",
     "generate": "prisma generate",
     "postinstall": "prisma generate",
-    "email": "email dev --dir src/emails"
+    "email": "email dev --dir src/emails",
+    "build": "tsc && tsc-alias"
   },
   "type": "module",
   "prisma": {
