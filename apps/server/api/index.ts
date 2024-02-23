@@ -29,7 +29,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://gym-master-server.vercel.app",
+      "https://hono-server-test.vercel.app",
     ],
     credentials: true,
   }),
