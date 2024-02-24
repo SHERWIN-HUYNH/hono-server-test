@@ -18,8 +18,8 @@ import { Hono } from "hono";
 import { serve } from "@hono/node-server";
 import { cors } from "hono/cors";
 import { logger } from "hono/logger";
-import { router as auth } from "./modules/auth/auth.controller";
-import { errorFilter } from "./lib/error-filter";
+import { router as auth } from "../modules/auth/auth.controller";
+import { errorFilter } from "../lib/error-filter";
 
 const app = new Hono().basePath("/api");
 
